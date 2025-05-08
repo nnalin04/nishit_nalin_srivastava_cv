@@ -15,19 +15,20 @@
             color: #333;
         }
         .container {
-    width: 100%;
-    max-width: 8.5in;
-    margin: 0 auto;
-}
+            width: 100%;
+            max-width: 8.5in;
+            margin: 0 auto;
+        }
         h1 {
             font-size: 19pt;
-            margin-bottom: 2px;
+            margin-bottom: 0;
             font-weight: bold;
-            text-align: left;
+            text-align: center;
         }
         .subtitle {
             font-size: 12.5pt;
-            margin-bottom: 5px;
+            margin-top: 2px;
+            margin-bottom: 4px;
             text-align: center;
             font-weight: normal;
         }
@@ -57,22 +58,33 @@
             font-weight: bold;
         }
         .skills-section ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 10px;
-    display: block;
-}
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 10px;
+            display: block;
+        }
         .skills-section li {
-    margin-bottom: 4px;
-    font-size: 10pt;
-    white-space: normal;
-}
-        .skills-section strong { font-weight: bold; font-size: 10.5pt; }
+            margin-bottom: 4px;
+            font-size: 10pt;
+            white-space: normal;
+        }
+        .skills-section strong {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
         .experience-item, .education-item {
             margin-bottom: 12px;
         }
-        .job-title, .degree-title { font-size: 12pt;$1 }
-        .company-info, .institution-info { font-size: 10.5pt; margin-bottom: 3px; }
+        .job-title, .degree-title {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+        .company-info, .institution-info {
+            font-size: 10.5pt;
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
         .experience-item ul {
             list-style-type: disc;
             padding-left: 20px;
@@ -91,15 +103,15 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="margin-bottom: 0;">Nishit Nalin Srivastava</h1>
-        <p class="subtitle" style="text-align: left; margin-top: 2px; margin-bottom: 8px;">Java Backend Engineer</p>
+        <h1 style="text-align: left; margin-bottom: 0;">Nishit Nalin Srivastava</h1>
+        <p class="subtitle" style="text-align: left; margin-top: 2px; margin-bottom: 4px;">Java Backend Engineer</p>
         <p class="contact-info" style="text-align: left;">
             Pune, India | +91-8917429675 | nnalin04@gmail.com<br>
             <a href="https://www.linkedin.com/in/nishit-nalin-srivastava-65a877176/" target="_blank">LinkedIn</a> | 
             <a href="https://github.com/nnalin04" target="_blank">GitHub</a> | 
             <a href="https://leetcode.com/u/nnalin04/" target="_blank">LeetCode</a>
-<hr style="margin-top: 8px; margin-bottom: 16px; border: none; border-top: 1px solid rgba(0, 0, 0, 0.05); width: 280px; margin-left: 0;">
         </p>
+        <hr style="margin-top: 8px; margin-bottom: 16px; border: none; border-top: 1px solid rgba(0, 0, 0, 0.05);">
 
         <p class="summary avoid-break">
             A highly motivated and results-driven backend engineer with a strong foundation in scalable system design, microservices architecture, and high-performance backend solutions. With a track record of driving performance improvements, optimizing deployments, and solving complex technical problems, I bring both innovation and stability to every project I contribute to. Passionate about building efficient, secure, and maintainable systems that support real-world financial operations at scale.
@@ -108,45 +120,44 @@
         <div class="skills-section avoid-break">
             <h2>Skills</h2>
             <ul>
-    <li><strong>Programming:</strong> Java, JavaScript, Shell Script</li>
-    <li><strong>Infrastructure & Tools:</strong> Spring Boot, Apache Kafka, IBM MQ, OpenShift, TeamCity, IntelliJ, GCP, Postman</li>
-    <li><strong>Data & Design:</strong> MySQL, Oracle SQL, PostgreSQL, Microservices, System Design, REST APIs</li>
-    <li><strong>Practices:</strong> Agile, TDD, CI/CD, MVC, MVVM</li>
-</ul>
+                <li><strong>Programming:</strong> Java, JavaScript, Shell Script</li>
+                <li><strong>Infrastructure & Tools:</strong> Spring Boot, Apache Kafka, IBM MQ, OpenShift, TeamCity, IntelliJ, GCP, Postman</li>
+                <li><strong>Data & Design:</strong> MySQL, Oracle SQL, PostgreSQL, Microservices, System Design, REST APIs</li>
+                <li><strong>Practices:</strong> Agile, TDD, CI/CD, MVC, MVVM</li>
+            </ul>
         </div>
 
         <div class="professional-experience avoid-break">
             <h2>Professional Experience</h2>
-            
             <div class="experience-item avoid-break">
-                <p class="job-title" style="margin-bottom: 2px;"><strong>Associate Engineer</strong></p>
-<p class="company-info" style="margin-top: 0; margin-bottom: 2px;"><strong>Deutsche Bank</strong></p>
-                <p style="margin-top: 0; margin-bottom: 6px;">Pune, India | Nov 2022 – Present</p>
+                <p class="job-title"><strong>Associate Engineer</strong></p>
+                <p class="company-info"><strong>Deutsche Bank</strong> | Pune, India | Nov 2022 – Present</p>
                 <ul>
-    <li>Developed and optimized Spring Boot microservices, modernizing legacy monolithic payment services and enhancing scalability by 30%, maintainability, and system performance.</li>
-    <li>Designed a proprietary TCP/IP communication protocol that enabled secure, direct connectivity with an international payment gateway, reducing third-party transaction costs by 100% and saving the bank substantial amounts in service charges.</li>
-    <li>Engineered a robust Kafka and MQ solution, optimizing payment orchestration and reducing processing time by 40%, thereby enhancing transaction efficiency.</li>
-    <li>Worked extensively with Oracle SQL Developer to design, optimize, and maintain database objects, improving query performance and system reliability.</li>
-    <li>Automated and optimized TeamCity deployments using template jobs, reducing setup time for new deployments by 50% and enhancing overall productivity.</li>
-    <li>Spearheaded production deployments on OpenShift Kubernetes clusters, streamlining containerized application rollouts and reducing downtime by 20%, while improving scalability.</li>
-    <li>Established a structured framework for service modules and developed reusable plugins, accelerating service setup by 35%, fostering agility, and driving innovation.</li>
-    <li>Decoupled Kafka, MQ, logging, and database configurations from services, simplifying integration across projects and minimizing setup complexity by 30%.</li>
-    <li>Migrated services from Java 8 to Java 17 and resolved critical system vulnerabilities, improving code security and compliance.</li>
-    <li>Practiced Test-Driven Development (TDD) and followed Agile principles to ensure rapid iteration, clean code, and reliable feature delivery.</li>
-    <li>Proactively debugged and resolved critical production issues, ensuring high system availability and maintaining stable customer service with 99.9% uptime.</li>
-</ul>
-<hr style="margin: 12px 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.03);">
-<div class="experience-item avoid-break">
-                <p class="job-title" style="margin-bottom: 2px;"><strong>Product Engineer</strong></p>
-<p class="company-info" style="margin-top: 0; margin-bottom: 2px;"><strong>Promobi Tech</strong> </p>
-              <p style="margin-top: 0; margin-bottom: 6px;">Pune, India | Jan 2021 – Sep 2022</p>
+                    <li>Developed and optimized Spring Boot microservices, modernizing legacy monolithic payment services and enhancing scalability by 30%, maintainability, and system performance.</li>
+                    <li>Designed a proprietary TCP/IP communication protocol that enabled secure, direct connectivity with an international payment gateway, reducing third-party transaction costs by 100% and saving the bank substantial amounts in service charges.</li>
+                    <li>Engineered a robust Kafka and MQ solution, optimizing payment orchestration and reducing processing time by 40%, thereby enhancing transaction efficiency.</li>
+                    <li>Worked extensively with Oracle SQL Developer to design, optimize, and maintain database objects, improving query performance and system reliability.</li>
+                    <li>Automated and optimized TeamCity deployments using template jobs, reducing setup time for new deployments by 50% and enhancing overall productivity.</li>
+                    <li>Spearheaded production deployments on OpenShift Kubernetes clusters, streamlining containerized application rollouts and reducing downtime by 20%, while improving scalability.</li>
+                    <li>Established a structured framework for service modules and developed reusable plugins, accelerating service setup by 35%, fostering agility, and driving innovation.</li>
+                    <li>Decoupled Kafka, MQ, logging, and database configurations from services, simplifying integration across projects and minimizing setup complexity by 30%.</li>
+                    <li>Migrated services from Java 8 to Java 17 and resolved critical system vulnerabilities, improving code security and compliance.</li>
+                    <li>Practiced Test-Driven Development (TDD) and followed Agile principles to ensure rapid iteration, clean code, and reliable feature delivery.</li>
+                    <li>Proactively debugged and resolved critical production issues, ensuring high system availability and maintaining stable customer service with 99.9% uptime.</li>
+                </ul>
+            </div>
+            <hr style="margin: 12px 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.03);">
+            <div class="experience-item avoid-break">
+                <p class="job-title"><strong>Product Engineer</strong></p>
+                <p class="company-info"><strong>Promobi Tech</strong> | Pune, India | Jan 2021 – Sep 2022</p>
                 <ul>
-                    <li>Developed scalable backend features supporting 1,500+ client devices, contributing to a robust Mobile Device Management (MDM) platform that enabled real-time control and monitoring of Android devices.</li>
-                    <li>Reduced support issue resolution time by 30% through systematic code optimization, improved logging mechanisms, and proactive issue detection for Android clients.</li>
-                    <li>Built and deployed RESTful APIs tailored to product requirements and client feedback, supporting device policy enforcement, app deployment, and system configuration for managed devices.</li>
-                    <li>Applied TDD practices with JUnit and Mockito, reducing production bugs by 25%.</li>
-                    <li>Integrated JWT for secure, stateless authentication.</li>
-                    <li>Adopted MVC and MVVM design patterns to improve application maintainability.</li>
+                    <li>Developed production features that supported over 1,500 client devices, enhancing system reliability and user satisfaction.</li>
+                    <li>Optimized code to resolve support-related bugs, improving issue resolution time by 30%.</li>
+                    <li>Created custom features on demand, tailoring solutions to meet specific customer needs and increasing client retention.</li>
+                    <li>Designed and implemented RESTful API services, aligning with product requirements to enhance system integration.</li>
+                    <li>Applied Test-Driven Development (TDD) using JUnit and Mockito, increasing code reliability and reducing bugs by 25%.</li>
+                    <li>Utilized JSON Web Token for secure authentication, enhancing data protection and user trust.</li>
+                    <li>Implemented MVC and MVVM architectures in Java, improving code maintainability and scalability for future development.</li>
                 </ul>
             </div>
         </div>
@@ -154,15 +165,14 @@
         <div class="education avoid-break">
             <h2>Education</h2>
             <div class="education-item avoid-break">
-    <p class="degree-title" style="margin-bottom: 2px;">Bachelor of Technology (B.Tech), Electrical and Electronic Engineering | 2018</p>
-    <p class="institution-info" style="margin-top: 0; margin-bottom: 6px;">KIIT Bhubaneswar — Bhubaneswar, India</p>
-</div>
+                <p class="degree-title">Bachelor of Technology (B.Tech), Electrical and Electronic Engineering | 2018</p>
+                <p class="institution-info">KIIT Bhubaneswar — Bhubaneswar, India</p>
+            </div>
             <div class="education-item avoid-break">
-                <p class="degree-title" style="margin-bottom: 2px;">Specialized Program in Software Development & Problem Solving | 2022</p>
-                <p class="institution-info" style="margin-top: 0; margin-bottom: 6px;">Scaler Academy — Remote</p>
+                <p class="degree-title">Specialized Program in Software Development & Problem Solving | 2022</p>
+                <p class="institution-info">Scaler Academy — Remote</p>
             </div>
         </div>
-
     </div>
 </body>
 </html>
